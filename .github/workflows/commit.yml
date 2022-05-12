@@ -22,7 +22,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global --add safe.directory /github/workspace
+          git config --global --add safe.directory /github/workflows
           git config --local user.email "angga.oktaharisetia@gmail.com"
           git config --local user.name "muhanggaohs"
           git add -A
